@@ -46,7 +46,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 </head>
 
 <body>
-       <?php  include '_navbar.php'; ?>
+       <?php  include '_navbar.html'; ?>
 
 <?php
 
@@ -89,8 +89,8 @@ if($noteInsertError)
     <div class="container">
         <table class="table" id="myTable">
             <thead>
-        <?php include '_editmodal.php'; ?>
-        <?php include '_deletemodal.php'; ?>
+        <?php include '_editmodal.html'; ?>
+        <?php include '_deletemodal.html'; ?>
 
                 <tr>
                     <th scope="col">S.no</th>
