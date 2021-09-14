@@ -96,7 +96,7 @@ if($noteInsertError)
                     <th scope="col">S.no</th>
                     <th scope="col">Title</th>
                     <th scope="col">Description</th>
-                    <th scope="col">    Actions</th>
+                    <th scope="col">Actions</th>
                 </tr>
             </thead>
             <tbody>
@@ -113,7 +113,7 @@ if($noteInsertError)
                             <th scope='row'>" . $sno . "</th>
                             <td>" . $row['title'] . "</td>
                             <td>" . $row["description"] . "</td>
-                            <td> <button type='button' class='btn btn-primary mx-2' data-bs-toggle='modal' data-bs-target='#editmodal'>Edit</button><button type='button' class='btn btn-primary' data-bs-toggle='modal' data-bs-target='#deletemodal'>Delete</button></td>
+                            <td> <button type='button' class='btn btn-primary mx-2' data-bs-toggle='modal' data-bs-target='#editmodal'>Edit</button><button type='button' class='btn btn-primary' data-bs-toggle='modal' data-bs-target='#deletemodal'>Delete</button></td>							
                             </tr>";
 
                     $sno = $sno + 1;
